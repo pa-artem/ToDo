@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <title>ToDo</title>
+</head>
+
+<body>
+    <h1>MY GREAT PLANS</h1>
+    <div class="wrap">
+        <div class="control container-fluid md">
+            <div class="chooseTasks">
+                <input placeholder="what do i want..." class="field form-control">
+                <button class="add btn btn-primary" type="button">Add tasks</button>
+                <select class="filter custom-select ">
+                    <option value="task">All tasks</option>
+                    <option value="unsuccess">Uncheck</option>
+                    <option value="success">Checked</option>
+                </select>
+            </div>
+            <div class="list">
+            </div>
+        </div>
+    </div>
+    <script src="js/todo.js" type="module"></script>
+</body>
+
+</html>
